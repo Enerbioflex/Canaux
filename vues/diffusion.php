@@ -30,7 +30,7 @@
 
 <form method="post" action="diffusion.php?id=<?= $_GET['id'] ?>">
     <p>
-        <textarea rows="7" name="message"></textarea>
+        <textarea rows="7" name="message" id="message"></textarea>
     </p>
 
     <p><input type="submit" id="submit" value="Envoyer" /></p>
