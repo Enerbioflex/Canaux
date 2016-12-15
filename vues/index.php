@@ -1,7 +1,6 @@
+<h2>Accueil</h2>
+
 <?php
 if ($MEMBRE) {
-    echo '<p>T\'es connecté ' . $_SESSION['userLogin'] . '</p>';
-    echo '<pre>';
-    print_r($_SESSION);
-    echo '</pre>';
+    echo '<p>Vous êtes connecté ' . $_SESSION['userLogin'] . '</p>';
 }
